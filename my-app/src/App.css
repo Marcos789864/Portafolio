@@ -1,0 +1,288 @@
+.container {
+  width: 100%;
+  background-color: black;
+}
+
+nav ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul.navbar li {
+  float: left;
+}
+
+nav ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul.navbar li a:hover {
+  background-color: #333;
+}
+
+
+.nav-right {
+  float: right;
+}
+
+.nav-right li {
+  display: inline;
+}
+
+.containerW
+{
+  display: flex;
+  padding: 30px;
+  background: #f4f6f8;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Inicialmente oculto */
+  transform: translateY(20px); /* Desplazado hacia abajo */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.Wave
+{
+  width: 100%;
+}
+.containerW2 {
+  opacity: 0; /* Inicialmente oculto */
+  transform: translateY(20px); /* Desplazado hacia abajo */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transición suave */
+}
+
+.containerW2.loaded {
+  opacity: 1; /* Mostrar cuando cargado */
+  transform: translateY(0); /* Sin desplazamiento */
+}
+
+.containerContenido{
+
+margin-bottom: 1rem;
+}
+
+h5
+{
+  color: #525b64;
+}
+
+.ContainerCentrado {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  width: 100%;
+}
+
+.containerCentrado2
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  width: 100%;
+  margin-left: 20%;
+}
+
+.ContainerAcercaInfo {
+  max-width: 300px;
+}
+
+.ContainerImg {
+  margin-left: 20px; 
+}
+
+.containerW .c
+{
+  max-width: 250px;
+}
+
+.ContainerImg img {
+  width: 20%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .ContainerCentrado {
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .ContainerImg {
+      margin-left: 0; 
+      margin-top: 20px; 
+      
+  }
+}
+
+.Img{
+
+  border-radius: 15px;
+}
+
+
+.ResolucionImg{
+  width: 150px;
+  height: auto;
+  margin-right: 5rem;
+}
+
+h1
+{
+  display: flex;
+  justify-content: center;
+}
+
+.ContainerCentrado h2
+{
+  display: flex;
+  justify-content: center;
+  margin-right: 5rem;
+  color: #5c656e;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.card-header {
+  background-color: #333; 
+  color: white;
+  padding: 15px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.card-footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+.ResolucionCertificado{
+  width:450px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.container2 {
+  display: flex;
+  width: 20%;
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+textarea {
+  height: 100px;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.Container3 {
+  width: 20%; 
+  margin-left: 2rem; 
+  
+}
+@media screen and (max-width: 738px) {
+  .container2 {
+    width: 80%; /* Cambia el ancho al 80% en dispositivos con una anchura de pantalla igual o inferior a 738px */
+  }
+
+  .Container3
+  {
+    width: 80%;
+  }
+}
+
+
+
+.containerW.loaded {
+  opacity: 1; /* Mostrar cuando cargado */
+  transform: translateY(0); /* Sin desplazamiento */
+}
+
+.scrollToTopButton {
+  
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+ 
+}
+
+.scrollToTopButton:hover {
+  background-color: #0056b3;
+}
+
+.scrollToTopButton p
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+}
+
